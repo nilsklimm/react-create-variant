@@ -2,10 +2,10 @@
   "name": "react-create-variant",
   "version": "0.0.1",
   "description": "Create variants of a react component with predefined props",
+  "repository": "nilsklimm/react-create-variant",
   "main": "dist/index.js",
   "author": "Nils Klimm <dev@nilsklimm.de>",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir dist --env production",
     "start": "webpack-dev-server --config test/webpack.config.js --mode development"
@@ -23,13 +23,13 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "html-webpack-plugin": "^3.0.4",
+    "react-dom": "^16.2.0",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.10",
     "webpack-dev-server": "^3.1.0"
   },
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.2.0"
   }
 }
