@@ -1,6 +1,6 @@
 {
   "name": "react-create-variant",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create variants of react components with predefined props",
   "repository": "nilsklimm/react-create-variant",
   "main": "dist/index.js",
